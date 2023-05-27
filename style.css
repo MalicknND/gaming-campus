@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Saira+Condensed:wght@500&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    align-items: center;
+    margin: 10px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+}
+#language {
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(221, 216, 216);
+}
+header {
+    background : url(./assets/img/bg.jpg) center fixed;
+    height: 50vh;
+}
